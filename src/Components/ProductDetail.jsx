@@ -71,7 +71,7 @@ const ProductDetail = () => {
             <p className="text-base leading-none text-gray-600 p-6">{product.description}</p>
           </div>
           <Link
-            to={`https://wa.me/8875867661?text=${encodeURIComponent(whatsappMessage)}`}
+            to={`https://wa.me/918875867661?text=${encodeURIComponent(whatsappMessage)}`}
             target="_blank"
             rel="noopener noreferrer"
             className="block w-full text-center bg-orange-600 text-white font-bold py-4 rounded hover:bg-orange-500 mt-6 transition-colors duration-200"

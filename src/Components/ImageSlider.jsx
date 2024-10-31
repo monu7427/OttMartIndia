@@ -48,11 +48,12 @@ const ImageSlider = () => {
         <div>
           <img src="https://ik.imagekit.io/ionicfirebaseapp/getwidget//2024/01/Top-OTT-Platforms-in-India-2.png" alt="Slide 1" className="w-full h-50 md:h-screen object-cover" />
         </div>
-        <div>
-          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1zRue0_ylBFsFgCSnpATGqiO14vJITCDI3w&s" alt="Slide 3" className="w-full h-50 md:h-screen object-cover" />
-        </div>
+       
         <div>
           <img src="https://www.contus.com/blog/wp-content/uploads/2022/03/banner-image-41.4-01.png" alt="Slide 2" className="w-full h-50 md:h-screen object-cover" />
+        </div>
+        <div>
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1zRue0_ylBFsFgCSnpATGqiO14vJITCDI3w&s" alt="Slide 3" className="w-full h-50 md:h-screen object-cover" />
         </div>
       
       </Slider>
