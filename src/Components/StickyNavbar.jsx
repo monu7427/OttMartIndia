@@ -26,13 +26,14 @@ export default function StickyNavbar() {
               {/* Logo and Company Name */}
               <div className="flex items-center">
                 <div className="w-12 h-12 mr-3 rounded-full overflow-hidden shadow-lg"> {/* Increased size */}
-                  <img
+                   <Link to='/'>
+                   <img
                     className="w-full h-full object-cover"
                     src="/images/favicon.ico"
                     alt="Your Company Logo"
-                  />
+                  /></Link>
                 </div>
-                <span className="text-2xl font-semibold text-gray-800">OttMartIndia</span> {/* Adjusted font size */}
+                <span className="text-2xl font-semibold text-gray-800">OttMartIndia</span>
               </div>
 
               {/* Mobile Menu Button, Visible Only on Mobile */}

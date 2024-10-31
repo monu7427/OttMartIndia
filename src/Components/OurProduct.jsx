@@ -46,7 +46,7 @@ const OurProduct = () => {
           {/* Dropdown for view styles */}
           <select
             onChange={(e) => setViewStyle(e.target.value)}
-            className="px-4 py-2 bg-orange-500 text-white rounded-lg hover:bg-orange-600 flex items-center gap-2"
+            className="px-4 py-2 bg-white text-black rounded-lg hover:bg-orange-600 flex items-center gap-2"
           >
             <option value="grid">
               <FaTh className="inline mr-2" /> Grid View
@@ -57,9 +57,7 @@ const OurProduct = () => {
             <option value="large">
               <FaThLarge className="inline mr-2" /> Large View
             </option>
-            <option value="medium">
-              <FaMobileAlt className="inline mr-2" /> Medium View
-            </option>
+           
           </select>
         </div>
 
