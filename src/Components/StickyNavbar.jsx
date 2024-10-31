@@ -33,7 +33,7 @@ export default function StickyNavbar() {
                     alt="Your Company Logo"
                   /></Link>
                 </div>
-                <span className="text-2xl font-semibold text-gray-800">OttMartIndia</span>
+                <Link to='/'> <span className="text-2xl font-semibold text-gray-800">OttMartIndia</span></Link>
               </div>
 
               {/* Mobile Menu Button, Visible Only on Mobile */}
