@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 
 const Process = () => {
   const copyUPI = () => {
-    const upiID = 'streamnation@ybl';
+    const upiID = 'ti9549@ybl';
     navigator.clipboard.writeText(upiID);
     const Btn = document.getElementById('Copy');
     const upi = document.getElementById('Upi');
